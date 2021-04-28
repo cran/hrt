@@ -1,0 +1,21 @@
+citHeader("To cite hrt in publications we suggest to use:")
+
+citEntry(
+entry = "manual",
+title = "hrt: Heteroskedasticity robust testing. Version 1.0.0",
+author = "Preinerstorfer, D.",
+year = "2021",
+textVersion = paste("Preinerstorfer, D. (2021).", 
+               "hrt: Heteroskedasticity robust testing.", "Version 1.0.0")
+
+)
+
+citEntry(
+entry = "Article",
+title = "Controlling the size of heteroskedasticity robust tests",
+author = "P{\"o}tscher, B.M., and Preinerstorfer, D.",
+journal = "Working Paper",
+year = "2021",
+header = "and to refer to the following article for a description of the algorithms and the underlying theory:", 
+textVersion = paste("P{\"o}tscher, B.M., and Preinerstorfer, D. (2021).", "Controlling the size of heteroskedasticity robust tests.", "arXiv:")
+)

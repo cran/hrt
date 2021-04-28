@@ -1,0 +1,3 @@
+useDynLib(hrt)
+import(methods, stats, Rcpp, CompQuadForm)
+export(test.stat, critical.value, size)
