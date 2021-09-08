@@ -1,3 +1,7 @@
+Version 1.0.1
+
+o In comparison to Version 1.0.0 a bug has been fixed in the function explore.qm, which is used in the functions critical.value and size. The bug affected the use of these functions in case q > 1 (in this case the functions were aborted due to the bug), but the bug did not affect any computation in case q = 1 (and in particular has no effect on the numerical results in Poetscher and Preinerstorfer (2021) "Valid Heteroskedasticity Robust Testing" arXiv:2104.12597). 
+
 Version 1.0.0
 
 o Version 1.0.0 launched successfully.

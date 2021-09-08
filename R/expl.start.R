@@ -185,7 +185,7 @@ if(q > 1){
   Rbmat <- R %*% qr.coef(qrX, ytransf)
   vals <- F.wrap(ytransf, R, rloc, X, n, k, q, qrX, hcmethod, cores, 
   restr.cov, Bfac, Bfac2, qrM0lin, RF.loc, tol)
-  quant.max <- max(quant.max, quantile(vals, probs = 1-alpha))
+  quant.max <- quantile(vals, probs = 1-alpha)
  
 } else {
 

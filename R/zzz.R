@@ -19,7 +19,7 @@
 
 packageStartupMessage("
 ###############################################################################
-#    Package hrt - Version 1.0.0 - License: GPL-2
+#    Package hrt - Version 1.0.1 - License: GPL-2
 ###############################################################################
 #    hrt is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
